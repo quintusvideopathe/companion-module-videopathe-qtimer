@@ -1,6 +1,6 @@
 # companion-module-videopathe-qtimer
 
-Bitfocus Companion module for controlling QTimer over its local HTTP API. App is available on videopathe.com
+Bitfocus Companion module for controlling QTimer over its local HTTP API. App is available for free on videopathe.com for Windows / MacOS.
 
 ## Scope
 
