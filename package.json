@@ -1,0 +1,38 @@
+{
+  "name": "companion-module-videopathe-qtimer",
+  "version": "2026.3.1",
+  "description": "Bitfocus Companion module for QTimer",
+  "main": "dist/main.js",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/videopathe/companion-module-videopathe-qtimer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/videopathe/companion-module-videopathe-qtimer/issues"
+  },
+  "engines": {
+    "node": "^22.20"
+  },
+  "scripts": {
+    "build": "rimraf dist && npm run build:main",
+    "build:main": "tsc -p tsconfig.build.json",
+    "dev": "tsc -p tsconfig.build.json --watch",
+    "lint": "eslint .",
+    "package": "npm run build && companion-module-build"
+  },
+  "dependencies": {
+    "@companion-module/base": "~1.14.1",
+    "@types/ws": "^8.18.1",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "@companion-module/tools": "^2.6.1",
+    "@types/node": "^22.19.3",
+    "eslint": "^9.39.2",
+    "rimraf": "^6.1.2",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.51.0"
+  }
+}
