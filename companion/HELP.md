@@ -2,6 +2,8 @@
 
 This module controls QTimer through the HTTP API exposed by the application.
 
+App is available on videopathe.com
+
 ### Connection
 
 - Default host: `127.0.0.1`
