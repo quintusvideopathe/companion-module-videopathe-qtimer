@@ -2,7 +2,7 @@
 
 This module controls QTimer through the HTTP API exposed by the application.
 
-App is available on videopathe.com
+App is available for free on videopathe.com for Windows / MacOS.
 
 ### Connection
 
