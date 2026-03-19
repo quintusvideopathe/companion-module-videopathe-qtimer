@@ -1,6 +1,6 @@
 ## QTimer
 
-This module controls QTimer through the HTTP API exposed by the application.
+This module controls QTimer through the HTTP API exposed by the application. 
 
 App is available for free on videopathe.com for Windows / MacOS.
 
@@ -59,7 +59,7 @@ The current implementation uses a hybrid approach:
 - Set the Developer Modules path to the parent folder that contains this module folder.
 - Add the connection from the `Connections` page, not from `Manage Modules`.
 - Recommended local config is host `127.0.0.1`, port `2222`, poll interval `1000`.
-- While developing the module, run `npm run dev` in the module folder so Companion can pick up rebuilt files automatically.
+- While developing the module, run `yarn dev` in the module folder so Companion can pick up rebuilt files automatically.
 
 ### Readout Presets
 

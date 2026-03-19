@@ -1,6 +1,10 @@
 # companion-module-videopathe-qtimer
 
-Bitfocus Companion module for controlling QTimer over its local HTTP API. App is available for free on videopathe.com for Windows / MacOS.
+See [HELP.md](./companion/HELP.md) and [LICENSE](./LICENSE)
+
+Bitfocus Companion module for controlling QTimer over its local HTTP API. 
+
+App is available for free on videopathe.com for Windows / MacOS.
 
 ## Scope
 
@@ -28,19 +32,19 @@ It covers:
 Install dependencies:
 
 ```bash
-npm install
+yarn
 ```
 
 Build once:
 
 ```bash
-npm run build
+yarn build
 ```
 
 Watch mode:
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 This is the recommended mode while testing with Companion. The developer modules folder will detect rebuilt files and reload the module.
@@ -48,7 +52,7 @@ This is the recommended mode while testing with Companion. The developer modules
 Package for Companion:
 
 ```bash
-npm run package
+yarn package
 ```
 
 ## Notes
